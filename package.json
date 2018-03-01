@@ -10,6 +10,7 @@
   },
   "scripts": {
     "build": "parcel build client/index.html -d public/build",
-    "start": "parcel client/index.html"
+    "start": "parcel client/index.html",
+    "serve": "node server/index.js"
   }
 }
